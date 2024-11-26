@@ -15,5 +15,7 @@ public class testingDemo
             }
             return sum;
         };
+
+		System.out.println(rangeSum.sumOfRange(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
 	}
 }
